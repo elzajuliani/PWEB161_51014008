@@ -1,0 +1,3 @@
++10 untuk tugas siap
++15 untuk 15 lagu tambahan sesudah 5 lagu pertama
+-2 untuk penggunaan <hr size>
