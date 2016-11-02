@@ -1,6 +1,0 @@
-+10 untuk tugas dikerjakan 
--6 untuk 6 kali penggunaan nama warna dalam file css
-+20 untuk 5 selector yang lebih dari 5 baris
-+40 untuk 20 kali pemanggilan class yang sama dlm html
----
-+64

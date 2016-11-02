@@ -1,0 +1,154 @@
+body 
+{
+
+    background: url(backg.jpg) no-repeat fixed top center; 
+		background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
+	background-attachment: fixed; /*agar gambar nya tetap seimbang tidak berubah */
+}
+
+
+.judul
+{
+
+
+	font-family: "segoe print";
+
+	background-color: #E6DBFF;
+	height: 200px;
+	background-size: cover;
+	border-radius: 25px;
+	border:15px #2966B8;
+	border-style: dotted;
+
+	
+-webkit-box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+	box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+
+
+	/*coding judul tulisan blur bergerak*/
+	text-align:center; color: #800080; font-size: 32px;  animation:blur .75s ease-out infinite; 
+	text-shadow:0px 0px 5px #cdc9c9, 0px 0px 7px #cdc9c9; 	
+	/*coding judul tulisan blur bergerak*/
+}
+
+.menu
+{
+	width: 300px;
+	height: 450px;
+	
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 50px;
+	float: left;
+
+	background-color: #E6DBFF;
+	text-align: center;
+	font-family: "comic sans ms";
+	font-size: "14";
+	border:10px #2966B8;
+	border-style: dotted;
+
+}
+
+
+
+.lirik
+{
+	overflow-y: scroll;
+	width: 500px;
+	height: 650px;
+	background: #ff9999;
+	padding: 10px;
+	margin-left: 500px;
+	margin-top: 50px;
+	float: center;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #E6DBFF;
+
+	/*   -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);*/
+ 	    
+}
+
+
+.lirik img
+{
+	max-width: 200px;
+	border-radius: 100%;
+	border:3px solid #800080;
+	border-style: dashed;
+	height: 200px;
+
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(197,104,187,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(197,104,187,1);
+	box-shadow: 0px -1px 40px 10px rgba(197,104,187,1);
+
+
+}
+
+
+h3
+{
+	color: #800080;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: "Comic Sans MS";
+
+	width: 450px;
+	padding: 8px;
+	border-radius: 40px; 
+	background: #E0FFFF; 
+	border-style: dashed;
+	text-align: center;
+}
+
+
+
+
+.syair {
+	font-size: 16px;
+	font-family: "Calibri";
+	padding: 30px;
+	border: 3px solid #800080; 
+	border-top-left-radius: 0px;
+ 	border-top-right-radius: 100px;
+ 	border-bottom-right-radius: 0px;
+ 	border-bottom-left-radius: 100px;
+}
+
+@media screen and (max-width: 1080px)
+{
+	
+	.menu  {
+		width: 25%;
+
+	}
+	.lirik {
+		width: 68%;
+		float: right;
+	
+
+	}
+	
+}
+@media screen and (max-width: 1000px)
+{
+	
+	.judul
+	{
+		text-align: auto;
+		
+	}
+	.menu {
+		width: 68%;
+		float: none;
+	}
+
+	.lirik {
+		float: right;
+	}
+}
