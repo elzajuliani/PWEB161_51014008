@@ -1,6 +1,6 @@
 body
 {
-	background: url(../img/back.jpg) no-repeat fixed top center; 
+	background: url(../img/blue.jpg) no-repeat fixed top center; 
 	background-size: cover;
 }
 
@@ -23,6 +23,30 @@ header
 {
 	width: 370px;
 	height:250px;
+}
+
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f001";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: url(../img/back.jpg) no-repeat fixed top center;
 }
 
 
