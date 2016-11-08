@@ -1,0 +1,32 @@
+body
+{
+	background: url(../img/back.jpg) no-repeat fixed top center; 
+	background-size: cover;
+}
+
+
+header
+{
+	background: url(../img/Children.jpg) ; 
+	background-size: 100% 100%;
+	
+}
+
+
+.navbar-custom {
+    background: #7CCFAC;
+    font-weight: 700;
+    border: none;
+}
+
+.img-responsive
+{
+	width: 370px;
+	height:250px;
+}
+
+
+/*.introtext
+{
+
+}*/
