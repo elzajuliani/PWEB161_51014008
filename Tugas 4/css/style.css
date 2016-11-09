@@ -14,7 +14,7 @@ header
 
 
 .navbar-custom {
-    background: #7CCFAC;
+    background: #204689;
     font-weight: 700;
     border: none;
 }
@@ -23,10 +23,21 @@ header
 {
 	width: 370px;
 	height:250px;
+  border-radius: 30px;
 }
 
 
-hr.star-light:after,
+hr.star-light:after
+{
+  content: "\f1ae";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 3em;
+  padding: 0 0.25em;
+}
+
 hr.star-primary:after {
   content: "\f001";
   font-family: FontAwesome;
@@ -36,6 +47,34 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
+
+hr.star-light, hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 550px;
+    margin: 25px auto 30px;
+}
+
+hr.star-light {
+  border-color: #1761bc;
+}
+hr.star-light:after {
+  background-color: #b3cff2;
+  color: #1761bc;
+  -webkit-box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+  box-shadow: 0px -1px 40px 10px rgba(197,149,187,1);
+}
+hr.star-primary {
+  border-color: #4a5e9b;
+}
+hr.star-primary:after {
+  background-color: #cdf1f4;
+  color: #2C3E50;
+}
+
 
 .portfolio-modal .modal-content {
   border-radius: 0;
@@ -50,7 +89,86 @@ hr.star-primary:after {
 }
 
 
-/*.introtext
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover 
 {
+    color: #fff;
+    background: #5EA1DA;
+    border-radius: 50px;
+}
 
-}*/
+span.name, span.skills
+{
+  color: #03d0fc;
+  text-align: center;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: #2794f4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  border-radius: 30px;
+}
+
+footer .footer-below 
+{
+  padding: 25px 0;
+  background-color: #204689;
+  -webkit-box-shadow: 0px -1px 40px 10px rgba(58, 98, 140,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(58, 98, 140,1);
+  box-shadow: 0px -1px 40px 10px rgba(58, 98, 140,1);
+}
+
+h2
+{
+  color: #3a98af;
+  font-family: "Kristen ITC";
+}
+
+h1
+{
+  color: hotpink;
+  font-family: "Segoe Print";
+}
+
+p
+{
+  color: #d32cb2;
+  font-family: "Comic Sans MS";
+}
+
+.btn-default 
+{
+    color: #fff;
+    background-color: #4795e8;
+    border-color: #4795e8;
+    font-weight: 1000;
+}
+
+hr.star-snow {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 550px;
+  margin: 25px auto 30px;
+}
+hr.star-snow:after {
+  content: "\f2dc";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-snow {
+  border-color: #a553e0;
+}
+hr.star-snow:after {
+  background-color: #cfcbef;
+  color: #2768ad;
