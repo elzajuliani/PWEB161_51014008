@@ -1,0 +1,9 @@
+Theme : Freelancer (https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/gh-pages.zip)
+
++10 untuk tugas yang dicommit terakhir selambatnya tanggal 09/11/16 23:59:59
++6 untuk 3 kali commit setelah commit pertama sebelum tanggal 09/11/2016
++30 untuk 15 class dan id theme yang di override
++12 untuk 4 class yang dibuat baru (nama baru, bukan override)
++12 untuk 6 fontawasome baru yang tidak ada di theme asli
+----+
+70
