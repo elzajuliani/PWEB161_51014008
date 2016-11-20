@@ -23,7 +23,7 @@ img.third-slide{
 h1 {
 	font-size: 50px;
 	color: #efec1a;
-	font-family: "Arial";
+	font-family: "Comic Sans MS";
 	text-shadow: 0px 0px 5px #99ed88, 0px 0px 10px #1b7238;
 }
 
@@ -73,10 +73,11 @@ body {
 	border-style: groove;
 	padding: 25px;
 	width: 700px;
-	margin-left: 100px
+	margin-left: 200px
 }
 
 
 h3 {
 	text-align: center;
+	
 }
