@@ -131,4 +131,8 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+  .aa{
+    border-radius: 4px;
+    margin-left: 0px;
+  }
 }
