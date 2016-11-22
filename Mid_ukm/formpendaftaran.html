@@ -53,11 +53,11 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                <li class="dropdown" >
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-file-text-o" aria-hidden="true"></i> Formulir <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Formulir Pendaftaran</a></li>
-                    <li><a href="formbiodata.html">Biodata Anggota <i class="fa fa-users" aria-hidden="true"></i></a></li>
+                    <li><a href="formpendaftaran.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Formulir Pendaftaran</a></li>
+                    <li><a href="formbiodata.html">Formulir Biodata Anggota <i class="fa fa-users" aria-hidden="true"></i></a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -125,50 +125,104 @@
 
     <div class="container marketing">
       <!-- START THE FEATURETTES -->
-      <h3>Form Pendaftaran Anggota Baru</h3>
-        <div class="aa">
-        <form method="action" mailto="felicia_elza@yahoo.com">
-        <table>
-        <tr>
-          <td>Nama</td>
-          <td>:</td>
-          <td><input type="text" size="30"></td>
-        </tr>
-        <tr>
-          <td>NIM</td>
-          <td>:</td>
-          <td><input type="text" size="8"></td>
-        </tr>
-        <tr>
-          <td>Jurusan</td>
-          <td>:</td>
-          <td><input type="text" size="30"></td>
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td>:</td>
-          <td><input type="text" size="30">
-          <select value="email"><option>@gmail.com</option>
-                                <option>@gmail.co.id</option>
-                                <option>@yahoo.com</option>
-                                <option>@yahoo.co.id</option>
-                                <option>@kharisma.ac.id</option>
-          </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Jenis Suara</td>
-          <td>:</td>
-          <td><select name="kelamin" value="sex">
-              <option>Sopran</option>
-              <option>Alto</option>
-              <option>Tenor</option>
-              <option>Bass</option>
-          </select></td></tr>
 
-    </table><br>
-<input type="checkbox"> Saya setuju dan ingin bergabung<br><br>
-<input type="submit" class="submit" value="daftar" cols="30"></form></div>
+    <legend>Form Pendaftaran Anggota Baru</legend>
+    <hr class="music">
+    <br>
+    <br>
+      <form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <label for="inputNama" class="col-lg-2 control-label">Nama</label>
+      <div class="col-lg-7">
+        <input class="form-control" id="inputNama" placeholder="Nama" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputNIM" class="col-lg-2 control-label">NIM</label>
+      <div class="col-lg-6">
+        <input class="form-control" id="inputNIM" placeholder="NIM" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="agama" class="col-lg-2 control-label">Jurusan</label>
+      <div class="col-lg-3">
+        <select class="form-control" id="agama">
+          <option>Sistem Informasi</option>
+          <option>Teknik Informatika</option>
+          <option>Manajemen Informatika</option>
+          <option>Teknik Komputer</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputemail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-6">
+        <input class="form-control" id="inputNIM" placeholder="Email" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Jenis Suara</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+            Sopran
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+            Alto
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios3" value="option3" type="radio">
+            Tenor
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios4" value="option4" type="radio">
+            Bass
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Syarat dan Ketentuan</h3>
+      </div>
+      <div class="panel-body">
+      1. Hadir di setiap jadwal UKM<br>
+      2. Jadi anggota yang loyal<br>
+      3. Wajib berpartisipasi dalam lomba<br>
+      4. Dapat bekerjasama dalam kelompok<br>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label"></label>
+      <div class="col-lg-10">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Saya setuju dan ingin bergabung
+          </label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default"><i class="fa fa-times" aria-hidden="true"></i> Batal</button>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-check-square-o" aria-hidden="true"></i> Daftar</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+    
       <hr class="featurette-divider">
 
 

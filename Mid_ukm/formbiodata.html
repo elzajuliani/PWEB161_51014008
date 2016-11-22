@@ -57,7 +57,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-file-text-o" aria-hidden="true"></i> Formulir <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="formpendaftaran.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Formulir Pendaftaran</a></li>
-                    <li><a href="#">Biodata Anggota <i class="fa fa-users" aria-hidden="true"></i></a></li>
+                    <li><a href="#">Formulir Biodata Anggota <i class="fa fa-users" aria-hidden="true"></i></a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -125,49 +125,69 @@
 
     <div class="container marketing">
       <!-- START THE FEATURETTES -->
-
-      <h3>Form Biodata Anggota</h3>
-      <div class="aa">
-      <form method="action" mailto="felicia_elza@yahoo.com">
-      <table>
-      <tr>
-          <td>Nama</td>
-          <td>:</td>
-          <td><input type="text" size="30"></td></tr>
-      <tr>
-          <td>Tempat Lahir<td>:<td><input type="text" name="tempat lahir"/></td><tr/>
-      <tr>
-          <td>Tanggal Lahir<td>:<td><input type="date" name="tanggal lahir"/></td><tr/>
-      <tr>
-          <td>Alamat</td>
-          <td>:</td>
-          <td><textarea cols="30" rows="5">Masukan alamat dengan Lengkap</textarea></td>
-      </tr>
-      <tr>
-          <td>Agama</td>
-          <td>:</td>
-          <td><select name="agama" size="1">
-              <option>Islam</option>
-              <option>Katolik</option>
-              <option>Kristen</option>
-              <option>Budha</option>
-              <option>Hindu</option>
-              </select> </td>
-      </tr>
-      <tr>
-          <td>Jenis Kelamin</td>
-          <td>:</td>
-          <td><select name="kelamin" value="sex">
-              <option>Laki-Laki</option>
-              <option>Perempuan</option>
-          </select></td></tr>
-      <tr>
-          <td>No. HP</td>
-          <td>:</td>
-          <td><input type="text" size="12"></td></tr>
-      </table><br>
-      <input type="submit" class="submit" value="daftar" cols="30"></form></div>
-      </form>
+    <legend>Form Biodata Anggota</legend>
+        <hr class="music">
+        <br>
+        <br>
+      <form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <label for="inputNama" class="col-lg-3 control-label">Nama</label>
+      <div class="col-lg-7">
+        <input class="form-control" id="inputNama" placeholder="Nama" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputTTL" class="col-lg-3 control-label">Tempat / Tanggal Lahir</label>
+      <div class="col-lg-6">
+        <input class="form-control" id="inputTTL" placeholder="Tempat, dd/mm/yyyy" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="alamat" class="col-lg-3 control-label">Alamat</label>
+      <div class="col-lg-6">
+        <textarea class="form-control" rows="3" id="alamat"></textarea>
+        <span class="help-block">Sebutkan alamat rumah anda dengan lengkap.</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="agama" class="col-lg-3 control-label">Agama</label>
+      <div class="col-lg-2">
+        <select class="form-control" id="agama">
+          <option>Katolik</option>
+          <option>Kristen</option>
+          <option>Islam</option>
+          <option>Hindu</option>
+          <option>Buddha</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-3 control-label">Jenis Kelamin</label>
+      <div class="col-lg-8">
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+            Laki - Laki
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+            Perempuan
+          </label>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default"><i class="fa fa-times" aria-hidden="true"></i> Batal</button>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-check-square-o" aria-hidden="true"></i> Daftar</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
     
       <hr class="featurette-divider">
 

@@ -81,3 +81,37 @@ h3 {
 	text-align: center;
 	
 }
+
+.panel{
+	max-width: 600px;
+	margin: auto;
+}
+
+hr.music:after {
+	content: "\f001";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 3em;
+  padding: 0 0.25em;
+     background-color: #bae8fc;
+  color: #1761bc;
+  
+}
+
+hr.music {
+   padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 25px auto 30px;
+    border-color: #1761bc;
+}
+
+legend {
+	text-align: center;
+	font-family: "Segoe Print";
+	font-size: 40px;
+}
